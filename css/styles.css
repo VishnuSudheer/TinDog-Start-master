@@ -1,0 +1,190 @@
+#title {
+  padding: 65px 235px;
+  background-color: #ff4c68;
+  font-family: 'Dosis', sans-serif;
+}
+
+#title li {
+  padding-left: 48px;
+  font-size: larger;
+  display: block;
+}
+
+#features {
+  display: block;
+  background: white;
+  position: relative;
+  text-align: center;
+  padding: 125px 235px;
+  font-family: 'Kiwi Maru', serif;
+  z-index: 2;
+}
+
+#features h3 {
+  font-size: x-large;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features i {
+  color: #fd6f58e0;
+  margin-bottom: 15px;
+}
+
+#press img {
+  width: auto;
+  height: 34px;
+  margin-right: 20px;
+}
+
+#press img:nth-child(2) {
+  width: auto;
+  height: 64px;
+}
+
+#pricing {
+  font-family: 'Kiwi Maru', serif;
+  text-align: center;
+  padding: 110px 0;
+}
+
+#pricing h2 {
+  font-family: 'monontserrat-bold';
+  font-size: 3.5rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 120px 165px 180px 165px;
+  color: white;
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  font-family: 'monontserrat-bold';
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px
+}
+
+#footer p {
+  color: #88929c;
+}
+
+#footer .row {
+  padding: 75px 0px 20px 621px;
+}
+
+.navbar {
+  padding-bottom: 22px ! important;
+}
+
+.navbar-brand h1 {
+  font-size: 44px;
+}
+
+.dis {
+  display: inline-block;
+}
+
+button {
+  border-width: thin;
+  font-size: large;
+  margin-top: 15px;
+  margin-right: 10px ! important;
+  margin-left: 10px ! important;
+  color: white;
+}
+
+i {
+  padding-right: 15px;
+}
+
+.A {
+  margin-top: 80px;
+}
+
+.A h1 {
+  font-size: 57px;
+  font-family: 'Kiwi Maru', serif;
+  line-height: 1.5;
+  color: white;
+}
+
+.A img {
+  width: auto;
+  height: 38rem;
+  position: absolute;
+  top: -60px;
+  transform: rotate(30deg);
+}
+
+.B {
+  background: #f97b67f2;
+  text-align: center;
+  padding-bottom: 110px;
+  padding-top: 10px;
+}
+
+.testimonial-image {
+  width: auto;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.carousel-inner {
+  padding: 100px 160px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-inner h2 {
+  font-size: 2.5rem;
+  font-family: 'Kiwi Maru', serif;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.text-center p {
+  color: #b1a8a8;
+  margin-bottom: 55px;
+}
+
+@media (max-width:980px) {
+  #title {
+    padding: 65px 170px;
+  }
+
+  .A {
+    text-align: center;
+  }
+
+  .A h1 {
+    font-size: 48px;
+    font-family: 'Kiwi Maru', serif;
+  }
+
+  .A img {
+    width: auto;
+    height: 50rem;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .A button {
+    margin: 30px 0;
+  }
+
+  #footer .row {
+    padding: 75px 0px 20px 435px;
+  }
+}
